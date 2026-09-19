@@ -1,0 +1,16 @@
+{
+  "seeds": [17, 29, 43],
+  "length": 320,
+  "channels": 6,
+  "window": 16,
+  "stride": 8,
+  "sequences": {"train": 40, "calibration": 16, "validation": 16, "test": 24},
+  "latent": 8,
+  "ae_hidden": 64,
+  "head_hidden": 32,
+  "epochs": 35,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "quantile": 0.95,
+  "torch_threads": 1
+}

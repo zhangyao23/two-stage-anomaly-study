@@ -1,0 +1,178 @@
+{
+  "detection/autoencoder/precision": {
+    "mean": 0.9240434534002196,
+    "std": 0.034217727095249624
+  },
+  "detection/autoencoder/recall": {
+    "mean": 0.8078712745763177,
+    "std": 0.034554832287303806
+  },
+  "detection/autoencoder/f1": {
+    "mean": 0.8611562220784528,
+    "std": 0.00486515722508556
+  },
+  "detection/autoencoder/false_positive_rate": {
+    "mean": 0.046901150698619054,
+    "std": 0.024368482380437567
+  },
+  "detection/autoencoder/pr_auc_ap": {
+    "mean": 0.9373315585152363,
+    "std": 0.0037104380992490616
+  },
+  "detection/max_abs_z/precision": {
+    "mean": 0.8842474732472897,
+    "std": 0.011074483917198709
+  },
+  "detection/max_abs_z/recall": {
+    "mean": 0.556304809157341,
+    "std": 0.049113303513029755
+  },
+  "detection/max_abs_z/f1": {
+    "mean": 0.6822782505130093,
+    "std": 0.04023129388280054
+  },
+  "detection/max_abs_z/false_positive_rate": {
+    "mean": 0.04990632585569294,
+    "std": 0.0026600598644678152
+  },
+  "detection/max_abs_z/pr_auc_ap": {
+    "mean": 0.8208356802175535,
+    "std": 0.02749724841327447
+  },
+  "diagnosis/raw/macro_f1": {
+    "mean": 0.3589097583079799,
+    "std": 0.05493063712839006
+  },
+  "cascade/autoencoder/raw/macro_f1": {
+    "mean": 0.4499654372757342,
+    "std": 0.03782864141902497
+  },
+  "cascade/autoencoder/raw/recall_normal": {
+    "mean": 0.953098849301381,
+    "std": 0.0243684823804376
+  },
+  "cascade/autoencoder/raw/recall_spike": {
+    "mean": 0.011494252873563218,
+    "std": 0.01990862997205606
+  },
+  "cascade/autoencoder/raw/recall_shift": {
+    "mean": 0.3837739271115499,
+    "std": 0.22150207097590546
+  },
+  "cascade/autoencoder/raw/recall_drift": {
+    "mean": 0.5086661356999279,
+    "std": 0.1320459855993807
+  },
+  "cascade/max_abs_z/raw/macro_f1": {
+    "mean": 0.36873119517859343,
+    "std": 0.02174613046075305
+  },
+  "cascade/max_abs_z/raw/recall_normal": {
+    "mean": 0.950093674144307,
+    "std": 0.0026600598644678473
+  },
+  "cascade/max_abs_z/raw/recall_spike": {
+    "mean": 0.011494252873563218,
+    "std": 0.01990862997205606
+  },
+  "cascade/max_abs_z/raw/recall_shift": {
+    "mean": 0.2579799475478934,
+    "std": 0.10971751717394443
+  },
+  "cascade/max_abs_z/raw/recall_drift": {
+    "mean": 0.2650092919179277,
+    "std": 0.06599507048312837
+  },
+  "diagnosis/encoded/macro_f1": {
+    "mean": 0.306602606570401,
+    "std": 0.011942897840626684
+  },
+  "cascade/autoencoder/encoded/macro_f1": {
+    "mean": 0.41500604861387097,
+    "std": 0.005396579477125611
+  },
+  "cascade/autoencoder/encoded/recall_normal": {
+    "mean": 0.953098849301381,
+    "std": 0.0243684823804376
+  },
+  "cascade/autoencoder/encoded/recall_spike": {
+    "mean": 0.0,
+    "std": 0.0
+  },
+  "cascade/autoencoder/encoded/recall_shift": {
+    "mean": 0.2028095075808767,
+    "std": 0.0037767559726472324
+  },
+  "cascade/autoencoder/encoded/recall_drift": {
+    "mean": 0.5694428641862935,
+    "std": 0.05346614069350962
+  },
+  "cascade/max_abs_z/encoded/macro_f1": {
+    "mean": 0.3447120044722458,
+    "std": 0.025669667693404983
+  },
+  "cascade/max_abs_z/encoded/recall_normal": {
+    "mean": 0.950093674144307,
+    "std": 0.0026600598644678473
+  },
+  "cascade/max_abs_z/encoded/recall_spike": {
+    "mean": 0.0,
+    "std": 0.0
+  },
+  "cascade/max_abs_z/encoded/recall_shift": {
+    "mean": 0.16877317303906877,
+    "std": 0.044367942548948255
+  },
+  "cascade/max_abs_z/encoded/recall_drift": {
+    "mean": 0.2900310994804111,
+    "std": 0.0428364700605883
+  },
+  "diagnosis/concat/macro_f1": {
+    "mean": 0.3677909025217035,
+    "std": 0.029500564647337118
+  },
+  "cascade/autoencoder/concat/macro_f1": {
+    "mean": 0.45677568232326565,
+    "std": 0.020431295964585497
+  },
+  "cascade/autoencoder/concat/recall_normal": {
+    "mean": 0.953098849301381,
+    "std": 0.0243684823804376
+  },
+  "cascade/autoencoder/concat/recall_spike": {
+    "mean": 0.01215738284703802,
+    "std": 0.01057548515818363
+  },
+  "cascade/autoencoder/concat/recall_shift": {
+    "mean": 0.3830257305199574,
+    "std": 0.0804230110131226
+  },
+  "cascade/autoencoder/concat/recall_drift": {
+    "mean": 0.4982459134524216,
+    "std": 0.027025652885048712
+  },
+  "cascade/max_abs_z/concat/macro_f1": {
+    "mean": 0.37529652670295244,
+    "std": 0.0288385633649804
+  },
+  "cascade/max_abs_z/concat/recall_normal": {
+    "mean": 0.950093674144307,
+    "std": 0.0026600598644678473
+  },
+  "cascade/max_abs_z/concat/recall_spike": {
+    "mean": 0.01215738284703802,
+    "std": 0.01057548515818363
+  },
+  "cascade/max_abs_z/concat/recall_shift": {
+    "mean": 0.2823869234038636,
+    "std": 0.10575026710279227
+  },
+  "cascade/max_abs_z/concat/recall_drift": {
+    "mean": 0.252664315242538,
+    "std": 0.005820898863867612
+  },
+  "single_stage/macro_f1": {
+    "mean": 0.43486561941346763,
+    "std": 0.00930689431795316
+  }
+}

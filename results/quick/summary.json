@@ -1,0 +1,178 @@
+{
+  "detection/autoencoder/precision": {
+    "mean": 0.6451612903225806,
+    "std": null
+  },
+  "detection/autoencoder/recall": {
+    "mean": 0.20833333333333334,
+    "std": null
+  },
+  "detection/autoencoder/f1": {
+    "mean": 0.31496062992125984,
+    "std": null
+  },
+  "detection/autoencoder/false_positive_rate": {
+    "mean": 0.07971014492753623,
+    "std": null
+  },
+  "detection/autoencoder/pr_auc_ap": {
+    "mean": 0.6328048265034945,
+    "std": null
+  },
+  "detection/max_abs_z/precision": {
+    "mean": 0.9056603773584906,
+    "std": null
+  },
+  "detection/max_abs_z/recall": {
+    "mean": 0.5,
+    "std": null
+  },
+  "detection/max_abs_z/f1": {
+    "mean": 0.6442953020134228,
+    "std": null
+  },
+  "detection/max_abs_z/false_positive_rate": {
+    "mean": 0.036231884057971016,
+    "std": null
+  },
+  "detection/max_abs_z/pr_auc_ap": {
+    "mean": 0.8261859538226082,
+    "std": null
+  },
+  "diagnosis/raw/macro_f1": {
+    "mean": 0.34834340942431763,
+    "std": null
+  },
+  "cascade/autoencoder/raw/macro_f1": {
+    "mean": 0.25313430203073667,
+    "std": null
+  },
+  "cascade/autoencoder/raw/recall_normal": {
+    "mean": 0.9202898550724637,
+    "std": null
+  },
+  "cascade/autoencoder/raw/recall_spike": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/autoencoder/raw/recall_shift": {
+    "mean": 0.029411764705882353,
+    "std": null
+  },
+  "cascade/autoencoder/raw/recall_drift": {
+    "mean": 0.1702127659574468,
+    "std": null
+  },
+  "cascade/max_abs_z/raw/macro_f1": {
+    "mean": 0.3361686282058333,
+    "std": null
+  },
+  "cascade/max_abs_z/raw/recall_normal": {
+    "mean": 0.9637681159420289,
+    "std": null
+  },
+  "cascade/max_abs_z/raw/recall_spike": {
+    "mean": 0.06666666666666667,
+    "std": null
+  },
+  "cascade/max_abs_z/raw/recall_shift": {
+    "mean": 0.029411764705882353,
+    "std": null
+  },
+  "cascade/max_abs_z/raw/recall_drift": {
+    "mean": 0.3404255319148936,
+    "std": null
+  },
+  "diagnosis/encoded/macro_f1": {
+    "mean": 0.2812742812742813,
+    "std": null
+  },
+  "cascade/autoencoder/encoded/macro_f1": {
+    "mean": 0.2445503421309873,
+    "std": null
+  },
+  "cascade/autoencoder/encoded/recall_normal": {
+    "mean": 0.9202898550724637,
+    "std": null
+  },
+  "cascade/autoencoder/encoded/recall_spike": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/autoencoder/encoded/recall_shift": {
+    "mean": 0.20588235294117646,
+    "std": null
+  },
+  "cascade/autoencoder/encoded/recall_drift": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/max_abs_z/encoded/macro_f1": {
+    "mean": 0.3111425212718316,
+    "std": null
+  },
+  "cascade/max_abs_z/encoded/recall_normal": {
+    "mean": 0.9637681159420289,
+    "std": null
+  },
+  "cascade/max_abs_z/encoded/recall_spike": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/max_abs_z/encoded/recall_shift": {
+    "mean": 0.29411764705882354,
+    "std": null
+  },
+  "cascade/max_abs_z/encoded/recall_drift": {
+    "mean": 0.0851063829787234,
+    "std": null
+  },
+  "diagnosis/concat/macro_f1": {
+    "mean": 0.2655926135293009,
+    "std": null
+  },
+  "cascade/autoencoder/concat/macro_f1": {
+    "mean": 0.24542753511344342,
+    "std": null
+  },
+  "cascade/autoencoder/concat/recall_normal": {
+    "mean": 0.9202898550724637,
+    "std": null
+  },
+  "cascade/autoencoder/concat/recall_spike": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/autoencoder/concat/recall_shift": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/autoencoder/concat/recall_drift": {
+    "mean": 0.19148936170212766,
+    "std": null
+  },
+  "cascade/max_abs_z/concat/macro_f1": {
+    "mean": 0.29179728317659354,
+    "std": null
+  },
+  "cascade/max_abs_z/concat/recall_normal": {
+    "mean": 0.9637681159420289,
+    "std": null
+  },
+  "cascade/max_abs_z/concat/recall_spike": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/max_abs_z/concat/recall_shift": {
+    "mean": 0.0,
+    "std": null
+  },
+  "cascade/max_abs_z/concat/recall_drift": {
+    "mean": 0.3191489361702128,
+    "std": null
+  },
+  "single_stage/macro_f1": {
+    "mean": 0.25354839468976553,
+    "std": null
+  }
+}

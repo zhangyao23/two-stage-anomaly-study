@@ -1,0 +1,113 @@
+{
+  "repository": "https://github.com/numenta/NAB",
+  "commit": "ea702d75cc2258d9d7dd35ca8e5e2539d71f3140",
+  "license": "MIT",
+  "subset": "entire realAWSCloudwatch directory",
+  "files": [
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv",
+      "sha256": "ab446fbd8b9f37507eb2fdb06315826d8daeef02e241133ce06e0ee571ba53d9",
+      "bytes": 105367
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv",
+      "sha256": "8942e498de7b40f1b4a6d802755592c09b8fb73ce8f658763a09cb9ea1ea94ac",
+      "bytes": 116041
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv",
+      "sha256": "01613e6f632d067f11a5dfd40a188b0789752b388d9bc77a398bd06333878a76",
+      "bytes": 119229
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv",
+      "sha256": "90ceabd570b449241ee24ff8a116a793979b7671ce4490707311bfea0e0aae1f",
+      "bytes": 106007
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv",
+      "sha256": "d768419037c9db269343822957314f57ee21a7d9a4d41df2add0d1ba45ba84de",
+      "bytes": 113675
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv",
+      "sha256": "749a15c2e1a4543c21fee9cbf3338cd8a7ed5f5f8a1308b9b099b06c2c66e66b",
+      "bytes": 116980
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_c6585a.csv",
+      "sha256": "d936cea74682ed43ac96b778352d7de294c0b0c168f4a7e6817162346cdb28c1",
+      "bytes": 104962
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv",
+      "sha256": "f3433f8171f4dcea86c0c7af9996d0f166f812fa0f4567f1d5cd85d2d2cd69b4",
+      "bytes": 115788
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv",
+      "sha256": "ce3d6c6a652ed7c31a6dd3727a36e128fcac6fb2381c63267ad0fbc02eccd9df",
+      "bytes": 116626
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv",
+      "sha256": "a0e734a66098bb81833835f0839dadafbc8ae829c51494670ee8849e46eb5b63",
+      "bytes": 101626
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_network_in_257a54.csv",
+      "sha256": "39104b08f2e0a673b5137eb7681897fcadf0955fedf565740a6a94edc63a81a4",
+      "bytes": 117236
+    },
+    {
+      "path": "data/realAWSCloudwatch/ec2_network_in_5abac7.csv",
+      "sha256": "c27ef93f582af63bf42e80d804764cbe64ae987620f3cfab5477d6ebb3c6157e",
+      "bytes": 120827
+    },
+    {
+      "path": "data/realAWSCloudwatch/elb_request_count_8c0756.csv",
+      "sha256": "74c26574a01ca9fb89dddb5021e2e13c3a93eb25dc640438a9acb1ceb00f1021",
+      "bytes": 101052
+    },
+    {
+      "path": "data/realAWSCloudwatch/grok_asg_anomaly.csv",
+      "sha256": "86a0abe9d58e376858d2fd4f4a438f1997e24c64a09e5af03accd4e1b372ac47",
+      "bytes": 131065
+    },
+    {
+      "path": "data/realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+      "sha256": "f115fbe6542159eed5612445bfa620708a28ab6b41349d1432bb15c3a3b8414d",
+      "bytes": 37339
+    },
+    {
+      "path": "data/realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv",
+      "sha256": "d5df979ef85928769a016cd0f935919d8c2a113926e21e1eb3a5001d688760e2",
+      "bytes": 117806
+    },
+    {
+      "path": "data/realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv",
+      "sha256": "6b712b922ab3b3404c5a629d64a570c390c99471ee8b9b0ff7665f553fda92c1",
+      "bytes": 113599
+    },
+    {
+      "path": "labels/combined_windows.json",
+      "sha256": "1e1fbc4601321aad8d0f8b3784c8134299379f68f6c1f7777565f8ffd57ab6b1",
+      "bytes": 15359
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "0a0b4d0b10cb1f7ed9ab2993ef93defc03447e6eba9daca1315dd32dae4877e3",
+      "bytes": 1056
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "1d32963e44a52323b44affff374a1222ebe5ef19ef8f7f6c6fd7a747aa52db30",
+      "bytes": 2931
+    },
+    {
+      "path": "README.md",
+      "sha256": "418b7afb70dc4550a0a671fd904d1f451ba5aade0ea4de5723645bcb567414cb",
+      "bytes": 12995
+    }
+  ]
+}
