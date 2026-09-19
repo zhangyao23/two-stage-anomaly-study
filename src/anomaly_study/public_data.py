@@ -23,18 +23,16 @@ def fetch(url):
         return response.read()
 
 
-def download_nab(root):
+def download_nab(root, subset="realAWSCloudwatch"):
+    if subset not in {"realAWSCloudwatch", "realAdExchange"}:
+        raise ValueError("Subset is not in the declared study protocol")
     root = Path(root)
     root.mkdir(parents=True, exist_ok=True)
     listing = json.loads(
-        fetch(
-            f"https://api.github.com/repos/numenta/NAB/contents/data/realAWSCloudwatch?ref={NAB_COMMIT}"
-        )
+        fetch(f"https://api.github.com/repos/numenta/NAB/contents/data/{subset}?ref={NAB_COMMIT}")
     )
     files = sorted(
-        "data/realAWSCloudwatch/" + entry["name"]
-        for entry in listing
-        if entry["name"].endswith(".csv")
+        f"data/{subset}/" + entry["name"] for entry in listing if entry["name"].endswith(".csv")
     )
     files += ["labels/combined_windows.json", "LICENSE.txt", "data/README.md", "README.md"]
 
@@ -55,11 +53,13 @@ def download_nab(root):
         "repository": "https://github.com/numenta/NAB",
         "commit": NAB_COMMIT,
         "license": "MIT",
-        "subset": "entire realAWSCloudwatch directory",
+        "subset": f"entire {subset} directory",
         "files": entries,
     }
     save_json(root / "manifest.json", manifest)
-    print(f"Downloaded {len(files) - 4} AWS series; raw files remain in ignored data directory.")
+    print(
+        f"Downloaded {len(files) - 4} {subset} series; raw files remain in ignored data directory."
+    )
     return manifest
 
 

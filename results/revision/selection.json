@@ -1,0 +1,12 @@
+{
+  "selected_cascade_head": "single_temporal",
+  "validation_macro_f1": {
+    "raw": 0.5122812911551318,
+    "encoded": 0.47109864452961064,
+    "concat": 0.5264931448373922,
+    "temporal": 0.8515817193302787,
+    "single_temporal": 0.8704565368702522
+  },
+  "config_digest": "fb740f800617058688cffc9e64850acad6368e27ce840a3f5130f3a11c18fd85",
+  "test_generated_during_selection": false
+}

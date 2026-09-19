@@ -14,9 +14,12 @@ def main():
     parser.add_argument("--config", default="configs/quick.json")
     parser.add_argument("--output", default="results/local")
     parser.add_argument("--data", default="data/nab")
+    parser.add_argument(
+        "--subset", default="realAWSCloudwatch", choices=["realAWSCloudwatch", "realAdExchange"]
+    )
     args = parser.parse_args()
     if args.command == "download":
-        download_nab(args.data)
+        download_nab(args.data, args.subset)
         return
     config = json.loads(Path(args.config).read_text(encoding="utf-8"))
     if args.command == "synthetic":

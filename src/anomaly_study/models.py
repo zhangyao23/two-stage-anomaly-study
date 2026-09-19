@@ -36,13 +36,15 @@ def representation(x, z, kind):
     raise ValueError(f"Unknown representation: {kind}")
 
 
-def train_model(model, x, target, val_x, val_target, config, seed, reconstruction=False):
+def train_model(
+    model, x, target, val_x, val_target, config, seed, reconstruction=False, class_weights=None
+):
     """Fixed full budget; select checkpoint with lowest validation loss, never test loss."""
     if len(x) == 0 or len(val_x) == 0:
         raise ValueError("Training and validation data must be nonempty")
     generator = torch.Generator().manual_seed(seed)
     optimizer = torch.optim.Adam(model.parameters(), lr=config["learning_rate"])
-    loss_fn = nn.MSELoss() if reconstruction else nn.CrossEntropyLoss()
+    loss_fn = nn.MSELoss() if reconstruction else nn.CrossEntropyLoss(weight=class_weights)
     best_loss, best_epoch, best_state = float("inf"), None, None
     history = []
     for epoch in range(config["epochs"]):

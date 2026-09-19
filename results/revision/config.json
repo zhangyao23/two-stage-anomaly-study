@@ -1,0 +1,36 @@
+{
+  "development_seeds": [
+    17,
+    29,
+    43
+  ],
+  "confirmation_seeds": [
+    101,
+    211,
+    307
+  ],
+  "base_config": "configs/full.json",
+  "head_epochs": 100,
+  "head_parameter_budget": 6400,
+  "history": 64,
+  "representations": [
+    "raw",
+    "encoded",
+    "concat",
+    "temporal"
+  ],
+  "public_lookbacks": [
+    32,
+    64,
+    128
+  ],
+  "public_quantiles": [
+    0.95,
+    0.975,
+    0.99
+  ],
+  "public_validation_fpr_limit": 0.1,
+  "public_scale_floor_fraction": 0.1,
+  "public_development_subset": "realAWSCloudwatch",
+  "public_confirmation_subset": "realAdExchange"
+}
