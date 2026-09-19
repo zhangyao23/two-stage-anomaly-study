@@ -1,5 +1,10 @@
 # Failure analysis and claim boundaries
 
+This document describes **original v1** failures. The subsequent revision implemented balanced
+loss, feature scaling, matched head parameter budgets, causal temporal features and normal
+rejection. See [confirmed revised results](REVISION_RESULTS.md) for improvements and remaining
+failures. The original observations below are retained as the development motivation.
+
 ## Detection is not diagnosis
 
 Reconstruction learning minimizes normal-data distortion, not anomaly-type classification loss.

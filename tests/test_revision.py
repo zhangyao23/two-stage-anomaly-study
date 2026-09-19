@@ -1,4 +1,6 @@
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -91,3 +93,15 @@ def test_public_selector_respects_false_alarm_constraint():
     }
     assert choose_public(scores, 0.1) == "low"
     assert choose_public(scores, 0.01) == "low"
+
+
+def test_publication_guard_rejects_staged_personal_notes(tmp_path):
+    subprocess.run(["git", "init", "-q", str(tmp_path)], check=True)
+    (tmp_path / "TASK_STATE.md").write_text("private task notes", encoding="utf-8")
+    subprocess.run(["git", "add", "TASK_STATE.md"], cwd=tmp_path, check=True)
+    script = Path(__file__).parents[1] / "scripts/check_public_tree.py"
+    result = subprocess.run(
+        [sys.executable, str(script)], cwd=tmp_path, capture_output=True, text=True
+    )
+    assert result.returncode == 1
+    assert "TASK_STATE.md" in result.stdout

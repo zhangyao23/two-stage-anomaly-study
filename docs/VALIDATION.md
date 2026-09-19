@@ -1,5 +1,20 @@
 # Validation record
 
+## Revision validation
+
+- All 19 validity tests passed after adding causal-context, rolling-history, class-balance,
+  parameter-matching, no-test-generation, rejection-denominator and staged-private-file rejection checks.
+- `scripts/audit_revision.py` recomputed all 2,808 fresh synthetic test-window outcomes and
+  3,562 public validation/test windows, including pooled AP and frozen validation selection.
+- Actual gated and standalone inference matched stored predictions for all three confirmation
+  seeds; full pipeline timing includes feature computation at batch sizes 1 and 128.
+- Original results remain intact. The revised protocol/selection was committed in `17bd171`
+  before new confirmation runs. No post-confirmation model or hyperparameter tuning occurred.
+- Public AWS lower FPR comes with lower recall/F1. New AdExchange F1 improves, but its seven
+  positives and FPR above the validation limit prohibit a universal improvement claim.
+
+## Original v1 validation
+
 Performed locally on Windows 11 / Intel Core i7-13700H / Python 3.12.10 / PyTorch 2.9.0+cpu.
 The experiment environment is also recorded in each result JSON; direct versions are pinned in
 `requirements-repro.txt`. No GPU, paid API or cloud computation was used.

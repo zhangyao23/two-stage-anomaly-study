@@ -1,5 +1,7 @@
 # Measured experiment results
 
+Historical v1 baseline. Current revision and fresh confirmation: [REVISION_RESULTS.md](REVISION_RESULTS.md).
+
 Generated from stored JSON/CSV with `python -m anomaly_study.report`.
 No point adjustment. All values are fractions; ± is sample SD over seeds, not a confidence interval.
 

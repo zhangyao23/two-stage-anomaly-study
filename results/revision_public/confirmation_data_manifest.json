@@ -1,0 +1,58 @@
+{
+  "repository": "https://github.com/numenta/NAB",
+  "commit": "ea702d75cc2258d9d7dd35ca8e5e2539d71f3140",
+  "license": "MIT",
+  "subset": "entire realAdExchange directory",
+  "files": [
+    {
+      "path": "data/realAdExchange/exchange-2_cpc_results.csv",
+      "sha256": "d869ab165254f3ee77ee21fd9fab2be1d07c1f80b8133cf01bbaf2d768c2ac64",
+      "bytes": 58887
+    },
+    {
+      "path": "data/realAdExchange/exchange-2_cpm_results.csv",
+      "sha256": "1f01b9438566d2fe1ac446faa202a395ac86db9240a1955bc1f118c8eada2a19",
+      "bytes": 58313
+    },
+    {
+      "path": "data/realAdExchange/exchange-3_cpc_results.csv",
+      "sha256": "e70b24dba107a2589657cb3feb9ca5605b4f3f7de49ff445f32f5991bc0bdbe5",
+      "bytes": 55474
+    },
+    {
+      "path": "data/realAdExchange/exchange-3_cpm_results.csv",
+      "sha256": "74d354a94fb1730e14b469c7c1c6e99c2ad69af53afdb85f65220bd3cf01ce4a",
+      "bytes": 54949
+    },
+    {
+      "path": "data/realAdExchange/exchange-4_cpc_results.csv",
+      "sha256": "d4c13abd6f28594dc446f22106562ebe917fdbe76170f60a500c2a402ecc09e2",
+      "bytes": 60212
+    },
+    {
+      "path": "data/realAdExchange/exchange-4_cpm_results.csv",
+      "sha256": "4e5c955b632145b77b93fba4a5e3bf615d47e00416e17091d64e05ae109c760e",
+      "bytes": 58931
+    },
+    {
+      "path": "labels/combined_windows.json",
+      "sha256": "1e1fbc4601321aad8d0f8b3784c8134299379f68f6c1f7777565f8ffd57ab6b1",
+      "bytes": 15359
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "0a0b4d0b10cb1f7ed9ab2993ef93defc03447e6eba9daca1315dd32dae4877e3",
+      "bytes": 1056
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "1d32963e44a52323b44affff374a1222ebe5ef19ef8f7f6c6fd7a747aa52db30",
+      "bytes": 2931
+    },
+    {
+      "path": "README.md",
+      "sha256": "418b7afb70dc4550a0a671fd904d1f451ba5aade0ea4de5723645bcb567414cb",
+      "bytes": 12995
+    }
+  ]
+}

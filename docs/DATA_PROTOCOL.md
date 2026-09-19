@@ -1,5 +1,8 @@
 # Data and experiment protocol
 
+This is the original v1 protocol. The [revision protocol](REVISION_PROTOCOL.md) adds validation-only
+selection, new synthetic test seeds and the complete NAB realAdExchange confirmation subset.
+
 ## Synthetic data
 
 No company-specific schemas, metric names, measurements or label taxonomies are used. Six generic
